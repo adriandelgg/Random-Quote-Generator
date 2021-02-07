@@ -5,7 +5,7 @@
 
 body {
     text-align: center;
-    background-color: darkgray;
+    background-color: #e09772;
 }
 
 /* Game */
@@ -17,30 +17,47 @@ body {
 } */
 
 .container {
-    background-color: blue;
+    background-color: #9e80d9;
     border: 3px solid;
+    border-radius: 30px;
     width: 50%;
-    height: 60vh;
+    height: 600px;
     margin: 0 auto;
+    filter: drop-shadow(3px 3px 8px black);
 }
 
 .output {
-    background-color: lightcyan;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: #E1E6E2;
     height: 30vh;
     width: 40vw;
     margin: 60px auto 0;
     border: 3px solid;
+    border-radius: 20px;
+    filter: drop-shadow(3px 3px 8px black);
 }
 
 .button {
     margin: 80px auto;
     width: 30vw;
     cursor: pointer;
+    background-color: #F2CEBB;
+    border-radius: 100px;
+    filter: drop-shadow(3px 3px 3px black);
+}
 
+.output p {
+    font-size: 3rem;
+}
+
+.button-click {
+    animation: outputBox 2s ease-in;
 }
 
 @keyframes outputBox {
-    10% {
+    0% {
         opacity: 0
     }
     100% {
