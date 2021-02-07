@@ -1,0 +1,49 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    text-align: center;
+    background-color: darkgray;
+}
+
+/* Game */
+
+/* main {
+    height: 50%;
+    width: 50%;
+    margin: auto;
+} */
+
+.container {
+    background-color: blue;
+    border: 3px solid;
+    width: 50%;
+    height: 60vh;
+    margin: 0 auto;
+}
+
+.output {
+    background-color: lightcyan;
+    height: 30vh;
+    width: 40vw;
+    margin: 60px auto 0;
+    border: 3px solid;
+}
+
+.button {
+    margin: 80px auto;
+    width: 30vw;
+    cursor: pointer;
+
+}
+
+@keyframes outputBox {
+    10% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1;
+    }
+}
