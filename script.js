@@ -5,7 +5,7 @@ const quotes = {
         'You strength is ',
         'Your life is ',
         'Your energy is ',
-        'You look'
+        'You look '
     ],
     
     ending: [
@@ -23,7 +23,6 @@ const randomQuote = () => {
     let firstHalf = quotes.beginning[Math.floor(Math.random() * quotes.beginning.length)];
     let secondHalf = quotes.ending[Math.floor(Math.random() * quotes.beginning.length)];
     return firstHalf + secondHalf;
-    
 }
 
 const container = document.querySelector('.container');
